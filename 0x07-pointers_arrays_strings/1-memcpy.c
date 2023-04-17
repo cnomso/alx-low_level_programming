@@ -1,5 +1,4 @@
 #include "main.h"
-#include "string.h"
 
 /**
  * _memcpy(char *dest, char *src, unsigned int n)
@@ -9,13 +8,16 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n){
 
-    int i = 0;
+    int c = 0;
+    int i = c;
 
-    for(i = 0; i < n; i++)
+    for ( c < 1; c++ )
     {
-        dest[i] = src; 
+        
+        dest[c] = src[c]; 
         
     }
 
-    return dest;
+    return (dest);
 }
+
